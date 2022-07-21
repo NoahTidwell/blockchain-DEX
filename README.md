@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# Ethereum Blockchain Decentralized Exchange (DEX)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+## This project is an experimental software application that allows users to connect a cryptocurrency wallet (MetaMask) to a web application interface and exchange between a variety of cryptocurrencies utilizing the Ethereum Blockchain.
