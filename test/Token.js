@@ -119,7 +119,7 @@ describe('Token', () => {
 
       })
 
-      it('emits an Approval Event', async () => {
+      it('emits an approval event', async () => {
       const event = result.events[0]
       expect(event.event).to.equal('Approval')
 
