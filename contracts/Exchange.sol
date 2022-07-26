@@ -138,13 +138,3 @@ contract Exchange {
 		emit Cancel(_order.id, msg.sender, _order.tokenGet, _order.amountGet, _order.tokenGive, _order.amountGive, block.timestamp);
 	}
 }
-
-
-
-
-
-
-
-
-
-
