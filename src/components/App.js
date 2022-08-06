@@ -24,6 +24,8 @@ function App() {
     // Reload page when network changes
     window.ethereum.on('chainChanged', () => {
       window.location.reload()
+      
+    console.log(provider.balance)
     })
 
     // Fetch current account and balance from MetaMask when changed
